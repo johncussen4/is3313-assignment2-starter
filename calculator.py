@@ -21,7 +21,7 @@ class Calculator:
 
     def power(self, base, exponent):
         """Raises the base to the power of the exponent and returns the result."""
-        return base * exponent
+        return base ** exponent
 
     def modulus(self, a, b):
         """Calculates the modulus of two numbers and returns the result."""
